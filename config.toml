@@ -5,6 +5,7 @@ theme = "bloggeri"
 description = "My site description"
 paginate = 4
 
+
 googleAnalytics = "G-RQ5K7NWNMX"
 
 
@@ -18,17 +19,17 @@ googleAnalytics = "G-RQ5K7NWNMX"
 
 [[menu.social]]
     name = "GitHub"
-    url = "https://github.com/pakstech"
+    url = "https://github.com/pakstechMoBoodstein"
     pre = "<i class='fab fa-github'></i>"
 
 [[menu.social]]
     name = "YouTube"
-    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+    url = "https://www.youtube.com"
     pre = "<i class='fab fa-youtube'></i>"
 
 [[menu.social]]
     name = "Twitter"
-    url = "https://twitter.com/pakstech"
+    url = "https://twitter.com/pakstechMoBd"
     pre = "<i class='fab fa-twitter'></i>"
 
     [[menu.footer]]
