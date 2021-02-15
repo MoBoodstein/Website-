@@ -5,6 +5,8 @@ theme = "bloggeri"
 description = "My site description"
 paginate = 4
 
+googleAnalytics = "G-RQ5K7NWNMX"
+
 
 [[menu.main]]
   name = "Über mich"
