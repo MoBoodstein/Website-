@@ -25,7 +25,8 @@ images: ["/images/background.jpg"]
 
 
 {{< section >}}
-## Some title
+## Hallo,
+## schön, dass du den Weg zu meinem Blog gefunden hast 
 
 My paragraph.
 {{< /section >}}
