@@ -6,7 +6,7 @@ description = "My site description"
 paginate = 4
 
 
-googleAnalytics = "G-RQ5K7NWNMX"
+googleAnalytics = "UA-189684436-1"
 
 
 [[menu.main]]
