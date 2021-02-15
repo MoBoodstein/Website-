@@ -8,9 +8,15 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: image_gallery
-  name: images
-  label: images
 - type: list
   name: categories
   label: categories
+- type: image_gallery
+  name: images
+  label: images
+- name: test
+  type: text
+  config:
+    required: false
+  label: Test
+  description: Test
