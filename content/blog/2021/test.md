@@ -1,9 +1,9 @@
 +++
-categories = []
+categories = ["Idstein, Malen "]
 date = 2021-02-14T23:00:00Z
-images = ["/uploads/test1-1.jpeg"]
-test = "Hallo hier ist ein test von Forrestry "
-title = "Test Forrestry "
+images = ["/uploads/b76c4663-9a3e-4853-b91a-039f6ddb8cfa.jpeg", "/uploads/9c650c2c-a6a6-4a8c-8ec4-fd1f271d55ff.png"]
+test = "Hier ist eine Zeichnung des Hexenturms. "
+title = "Zeichnung Hexenturm "
 
 +++
 Liebe Leute, 
