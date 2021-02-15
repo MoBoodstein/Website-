@@ -19,17 +19,13 @@ googleAnalytics = "UA-189684436-1"
 
 [[menu.social]]
     name = "GitHub"
-    url = "https://github.com/pakstechMoBoodstein"
+    url = "https://github.com/MoBoodstein"
     pre = "<i class='fab fa-github'></i>"
 
-[[menu.social]]
-    name = "YouTube"
-    url = "https://www.youtube.com"
-    pre = "<i class='fab fa-youtube'></i>"
 
 [[menu.social]]
     name = "Twitter"
-    url = "https://twitter.com/pakstechMoBd"
+    url = "https://twitter.com/MoBd"
     pre = "<i class='fab fa-twitter'></i>"
 
     [[menu.footer]]
