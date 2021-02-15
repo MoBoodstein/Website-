@@ -1,0 +1,55 @@
+baseURL = "http://example.org/"
+languageCode = "de-DE"
+title = "Mo's Blog"
+theme = "bloggeri"
+description = "My site description"
+paginate = 4
+
+
+[[menu.main]]
+  name = "Über mich"
+  url = "/about"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/pakstech"
+    pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+    pre = "<i class='fab fa-youtube'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/pakstech"
+    pre = "<i class='fab fa-twitter'></i>"
+
+    [[menu.footer]]
+  name = "About"
+  url = "/about"
+
+[[menu.footer]]
+  name = "Privacy"
+  url = "/privacy"
+
+[params]
+    author = "Moritz Lennartz"
+    authorImage = "/images/Manager.jpg"
+
+    [[menu.main]]
+    name = "Kategorien"
+    url = "/categories"
+
+    [markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+
+
+
