@@ -1,4 +1,4 @@
-baseURL = "http://blogmo.link"
+baseURL = "https://blogmo.link"
 languageCode = "de-DE"
 title = "Mo's Blog"
 theme = "bloggeri"
