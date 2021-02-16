@@ -37,8 +37,8 @@ googleAnalytics = "UA-189684436-1"
   url = "/privacy"
 
 [params]
-    author = "Moritz Lennartz"
-    authorImage = "/images/Manager.jpg"
+    author = "Mo"
+    authorImage = "/images/author.jpg"
 
     [[menu.main]]
     name = "Kategorien"
