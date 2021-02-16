@@ -3,8 +3,16 @@ title: "Über mich"
 date: 2021-02-15T00:56:41+01:00
 layout: about
 heroimage: /images/about1.jpeg
-herotext: Das ist mein erster eigener Blog 
+herotext: Eine kurze Vorstellung  
+
+buttons:
+
+- name: E-Mail
+  icon: fas fa-envelope
+  id: open-modal
+
+form: "https://docs.google.com/forms/d/e/1FAIpQLSdmts8VU_3Yu7rSCJ34PlXSbTy4Zdhq_tAUwxPGNqlgDNXLyA/viewform?embedded=true" 
 ---
 
-### Am 15.02.2021 habe ich meinen ersten eigenen Blogeintrag erstellt. 
-### Ich hoffe es werden noch viele Folgen
+### Ich plane hier noch ein Kontaktformular einzufügen :)
+### 

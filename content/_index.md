@@ -19,7 +19,7 @@ images: ["/images/background.jpg"]
             <h2 class="title is-1">Willkommen!</h2>
         </div>
         <div class="container has-text-centered">
-        <p class="subtitle"> Das ist mein erster Blog
+        <p class="subtitle"> 
     </div>
 </section>
 

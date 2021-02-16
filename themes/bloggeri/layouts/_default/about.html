@@ -15,6 +15,26 @@
             </div>
         </div>
     </div>
+    <div class="hero-foot">
+        {{ with .Params.buttons }}
+        <nav class="tabs">
+            <div class="container max-800px">
+                <ul>
+                    {{ range . }}
+                    <li>
+                        <a class="has-background-primary" {{ with .id }}id="{{ . }}" {{ end }}
+                            {{ with .href }}href="{{ . | safeURL }}" {{ end }}>
+                            <span class="icon"><i class="{{ .icon }}" aria-hidden="true"></i></span>
+                            <span>{{ .name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </nav>
+        
+        {{ end }}
+    </div>
 </div>
 <div class="section">
     <div class="container max-800px">
@@ -23,6 +43,40 @@
         </div>
     </div>
 </div>
+{{ with .Params.form }}
+<style>
+    .contact-form {
+        width: 640px;
+        height: 960px;
+        overflow: scroll;
+    }
+</style>
+<div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content" style="overflow: auto!important; -webkit-overflow-scrolling: touch!important;">
+        <iframe class="contact-form" src="{{ . }}" width="640" height="1019" frameborder="0" marginheight="0"
+            marginwidth="0">Loading...</iframe>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+<script>
+    document.querySelector('a#open-modal').addEventListener('click', function (event) {
+        event.preventDefault();
+        var modal = document.querySelector('.modal');
+        var html = document.querySelector('html');
+        modal.classList.add('is-active');
+        html.classList.add('is-clipped');
+
+        var close = (e) => {
+            e.preventDefault();
+            modal.classList.remove('is-active');
+            html.classList.remove('is-clipped');
+        }
+        modal.querySelector('.modal-background').addEventListener('click', close);
+        modal.querySelector('.modal-close').addEventListener('click', close);
+    });
+</script>
+{{ end }}
 
 {{ end }}
 
