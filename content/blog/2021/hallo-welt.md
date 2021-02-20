@@ -1,16 +1,13 @@
 ---
-title: "Mein erster Post"
-date: 2019-03-20T18:42:38+02:00
-description: "This is a short description of the page"
-
-images: ["/images/background.jpg"]
-
+title: 'Mein erster Post - Frühling in Berlin '
+date: 2021-02-19T23:00:00+00:00
+description: This is a short description of the page
+images:
+- "/images/background.jpg"
 categories:
-  - Malen
-  - Sprache
+- Berlin
 
 ---
-
 # Was ist Lorem Ipsum?
 In mollis cursus ligula, et venenatis neque maximus ut...
 rtastete he kreiselnd kraftiger so barbieren stadtchen. Nur fur das wei wenig herrn flick. 
@@ -49,4 +46,3 @@ Fusce facilisis non ante quis blandit...
 
 ### Donec vel accumsan justo
 Maecenas eu libero ac justo tempor pellentesque...
-
